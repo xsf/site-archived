@@ -1,0 +1,22 @@
+Title: XMPP Roundup 10
+Date: 2009-06-11 19:13:40
+Author: Nyco
+Slug: xmpp-roundup-10
+Category: post
+Tags: 
+Summary: description:
+Link: http://xmpp.org/2009/06/xmpp-roundup-10/
+post_id: 495
+
+
+[Reporters: Nicolas Vérité and Peter Saint-Andre] For those who love round numbers, welcome to the tenth edition of the XMPP Roundup, our semi-regular review of news and events in the XMPP community. Since our [last roundup](/index.php/2009/05/xmpp-roundup-9/) on May 11, here's what's been happening... **Software** _Google Wave_ Google has announced the existence of [Google Wave](http://www.waveprotocol.org/), an early-stage technology for real-time interaction that will incorporate aspects of IM, email, wikis, and other collaboration techniques. The technology for federating different Wave instances is pure XMPP, so the developer community is watching this project quite closely. _Minbif_ [Minbif](http://symlink.me/wiki/minbif) is an IRC gateway to IM networks which lets the user connect to Jabber (and many proprietary legacy IM systems), through IRC command lines. It is release under the GPLv2 license, in version 1.0alpha as the time of this writing. _Utterance_ Nolan Darilek has announced the development of [Utterance](http://gitorious.org/utterance), an XMPP microblog transport, written in Ruby under a BSD license. _modular_muc_ [Eric Cestari](http://www.cestari.info/) wrote a [Multi-User Chat (MUC) module](http://github.com/cstar/modular_muc/tree/master) in ejabberd that is as modular as the PubSub module. _exmpp_ ProcessOne has launched its [exmpp](https://support.process-one.net/doc/display/EXMPP/exmpp+home) Erlang XMPP library under the Erlang Public License (EPL), in its newly opened [Labs](http://www.process-one.net/en/labs/). _Hemlock_ [Hemlock](http://hemlock-kills.com/) is an opensource soon-to-be-released Flash XMPP framework. **Services** _Ask me_ [http://askme.im/](http://askme.im/) has a set of XMPP bots that cover quotes, jokes, movie reviews, stock prices and daliy horoscopes, and much more... _Jabbim's URL shorting service_ Jabbim community has released a [new URL shortening service](http://dev.jabbim.cz/?p=65) at [xmpp:shorty@jabbim.com](xmpp:shorty@jabbim.com): just add it to your roster and start chatting. **Community** Members of the XMPP community have started work on two new initiatives: an open framework for XMPP protocol testing and a website for information about the XMPP network. To participate, join the [interop@xmpp.org](http://mail.jabber.org/mailman/listinfo/interop) discussion list or the [operators@xmpp.org](http://mail.jabber.org/mailman/listinfo/operators) discussion list, respectively. Expect to see more work on these projects in the coming months! **Protocols** The big news here is that the core Jingle specifications have finally advanced from Experimental to Draft status (version 1.0)! We'll post more about this in the near future. The specs that have moved forward are:
+
+* [XEP-0166: Jingle](/extensions/xep-0166.html)
+* [XEP-0167: Jingle RTP Sessions](/extensions/xep-0167.html)
+* [XEP-0176: Jingle ICE-UDP Transport Method](/extensions/xep-0176.html)
+* [XEP-0177: Jingle Raw UDP Transport Method](/extensions/xep-0177.html)
+Another important specification to advance from Experimental to Draft is [Roster Versioning](/extensions/xep-0237.html). This technology will make it much more efficient for IM clients to log into XMPP servers, since the server can inform the client if the user's contact list has not changed since the client last logged in (or send a small diff if it has changed). This is especially important in mobile applications such as cell phones and PDAs. The roster versioning technology is one of the mobile optimizations we are working on, and will be incorporated into the revisions to RFC 3921 within the IETF's newly re-formed [XMPP Working Group](http://tools.ietf.org/wg/xmpp/). In addition, the [XMPP Council](http://xmpp.org/council/) has been working to advance more XEPs from Draft to Final. The latest specification to be so honored are:
+
+* [XEP-0138: Stream Compression](/extensions/xep-0138.html)
+* [XEP-0199: XMPP Ping](/extensions/xep-0199.html)
+Finally, the Council has also been performing some "spring cleaning" by officially obsoleting XEP-0003: Proxy Accept Socket Service, XEP-0011: Jabber Browsing, XEP-0022: Message Events, XEP-0023: Message Expiration, XEP-0025: Jabber HTTP Polling, XEP-0090: Legacy Entity Time, and XEP-0091: Legacy Delayed Delivery. **Conclusion** Again, 2009 seems to be a very active year for XMPP technologies.

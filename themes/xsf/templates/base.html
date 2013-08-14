@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block windowtitle %}{{ SITENAME }}{% endblock %}</title>
+    <meta name="description" content="">
+    <meta name="author" content="{{ AUTHOR }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Sorts+Mill+Goudy:400,400italic|Libre+Baskerville:400,400italic|Open+Sans:400italic,700italic,400,700' 
+          rel='stylesheet'
+          type='text/css'>
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/static/css/pygments.css" rel="stylesheet">
+    <link href="/static/css/local.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="{{ SITEURL }}"><img src="/static/images/xmpp-org.png" alt="XMPP"></a>
+            <div class="nav-collapse">
+                <ul class="nav nav-pills">
+                    <li><a href="{{ SITEURL }}">Home</a></li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">About<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/about-xmpp.html">About XMPP</a></li>
+                            <li><a href="/pages/faq.html">FAQ</a></li>
+                            <li><a href="/pages/history.html">History</a></li>
+                            <li><a href="/pages/xsf.html">XMPP Standards Foundation</a></li>
+                            <li><a href="/pages/technology-overview.html">XMPP Technology Overview</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">XMPP Software<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/servers.html">Servers </a></li>
+                            <li><a href="/pages/clients.html">Clients</a></li>
+                            <li><a href="/pages/libraries.html">Libraries</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Protocols<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/protocol-namespaces.html">Protocol Namespaces </a></li>
+                            <li><a href="/pages/xmpp-core.html">Protocol Stack</a></li>
+                            <li><a href="/pages/xmpp-extensions.html">XMPP Extensions</a></li>
+                            <li><a href="/pages/internet-drafts.html">Internet Drafts</a></li>
+                            <li><a href="/pages/rfcs.html">RFCs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Resources<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/security-notices.html">Security Notices</a></li>
+                            <li><a href="/pages/certificates.html">Certificates</a></li>
+                            <li><a href="/pages/registrar.html">Registrar</a></li>
+                            <li><a href="/pages/schemas.html">Schemas</a></li>
+                            <li><a href="/pages/books.html">Books</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Sponsors<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/our-sponsors.html">Our Sponsors</a></li>
+                            <li><a href="/pages/sponsor-the-xsf.html">Sponsor the XSF</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Participate<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/become-a-member.html">Become a Member</a></li>
+                            <li><a href="/pages/discuss-xmpp.html">Discuss XMPP</a></li>
+                            <li><a href="/pages/the-xmpp-summit.html">The XMPP Summit</a></li>
+                            <li><a href="/pages/future-events.html">Future Events</a></li>
+                            <li><a href="/pages/contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span9">
+            {% block content %}{% endblock %}
+        </div>
+        
+        <div class="span3">
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+                <p class="text-center">Thanks to our sponsors!</p>
+                <ul class="thumbnails">
+                    <li><a href="/pages/conversant.html"><img src="/static/images/sidebar-coversant.png" /></a>
+                    <li><a href="/pages/google.html"><img src="/static/images/sidebar-google.png" /></a>
+                    <li><a href="/pages/us-secure-hosting-center.html"><img src="/static/images/sidebar-usshc.png" /></a>
+                    <li><a href="/pages/voxeo.html"><img src="/static/images/sidebar-voxeo.gif" /></a>
+                </ul>
+            </div>
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Site
+                </li>
+            
+                <li><a href="{{ SITEURL }}/archives.html">Archives</a>
+                <li><a href="{{ SITEURL }}/tags.html">Tags</a>
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate">Atom feed</a></li>
+                {% if FEED_RSS %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
+                {% endif %}
+            </ul>
+            </div>
+
+            {% if LINKS %}
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Links
+                </li>
+            
+            {% for name, link in LINKS %}
+                <li><a href="{{ link }}">{{ name }}</a></li>
+            {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
+
+
+            {% if SOCIAL %}
+            <div class="social">
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Social
+                </li>
+           
+                {% for name, link in SOCIAL %}
+                <li><a href="{{ link }}">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
+            </div>
+            </div>
+            {% endif %}
+
+        </div> {# End span3 #} 
+    </div> {# End row #}
+</div>
+
+<footer>
+<br />
+<p><a href="{{ SITEURL }}">{{ SITENAME }}</a> &copy; {{ AUTHOR }} 2013</p>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+{% include "analytics.html" %}
+</body>
+</html>

@@ -1,0 +1,12 @@
+Title: XMPP Extensions
+Date: 2010-02-23 08:53:54
+Author: admin
+Slug: xmpp-extensions
+Category: page
+Tags: 
+Summary: description:
+Link: http://xmpp.org/xmpp-protocols/xmpp-extensions/
+post_id: 240
+
+
+XMPP is the Extensible Messaging and Presence Protocol, a set of open [technologies](/about-xmpp/technology-overview/) for instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data. The [XMPP Standards Foundation](http://xmpp.org/about-xmpp/xsf/) (XSF) develops extensions to [XMPP](http://xmpp.org/) through a standards process centered around XMPP Extension Protocols (XEPs). The [process](http://xmpp.org/extensions/xep-0001.html) is managed by the [XMPP Extensions Editor](http://xmpp.org/about-xmpp/xsf/xsf-people/#editor) and involves intensive discussion on the [Standards mailing list](http://mail.jabber.org/mailman/listinfo/standards/), formal review and [voting](http://xmpp.org/council/votes.shtml) by the [XMPP Council](http://xmpp.org/about-xmpp/xsf/xmpp-council/), and modification based on implementation experience and interoperability testing. All documents in the XEP series are available under a liberal [IPR Policy](http://xmpp.org/about-xmpp/xsf/xsf-ipr-policy/) for wide implementation. Submissions are [welcome](http://xmpp.org/xmpp-protocols/xmpp-extensions/submitting-a-xep/) (see also the ["inbox"](http://xmpp.org/extensions/inbox/)). All XEPs and related files are under [source control](http://xmpp.org/about-xmpp/xsf/xsf-source-control/), [old versions](http://xmpp.org/extensions/attic/) are available, and IETF-style [XML reference files](http://xmpp.org/extensions/refs/) are provided. A compressed archive of all current XEPs can be downloaded [here](http://xmpp.org/extensions/xepbundle.tar.bz2). You can view and submit XEP-related bugs and feature requests at the [issue tracker](http://tracker.xmpp.org/browse/SPEC). This page lists approved XMPP extensions as well as proposals that are under active consideration. A [list of all XEPs](http://xmpp.org/extensions/all.shtml) (including retracted, rejected, deprecated, and obsolete XEPs) is also available. Good places for developers to start are the [client compliance](http://xmpp.org/extensions/xep-0242.html) and [server compliance](http://xmpp.org/extensions/xep-0243.html) definitions, as well as the [technology overview pages](http://xmpp.org/about-xmpp/technology-overview/).
