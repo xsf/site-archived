@@ -9,7 +9,8 @@ Link: http://xmpp.org/about-xmpp/xsf/xsf-ipr-policy/
 post_id: 1000
 
 
-This document defines the official policy of the XMPP Standards Foundation regarding intellectual property rights (IPR) pertaining to XMPP Extension Protocol specifications (XEPs).
+This document defines the official policy of the XMPP Standards Foundation regarding intellectual property rights (IPR) 
+pertaining to XMPP Extension Protocol specifications (XEPs).
 
 Version 1.4
 
@@ -18,24 +19,26 @@ Version 1.4
 Table of Contents:
 
 1. Introduction
-1.1. History
-1.2. [Purpose](l#intro-role)
+  1. History
+  2. [Purpose](l#intro-role)
 2. Terms
-2.1. XMPP
-2.2. XMPP Extension Protocol
-2.3. Implementation
-2.4. Intellectual Property Claim
+  1. XMPP
+  2. XMPP Extension Protocol
+  3. Implementation
+  4. Intellectual Property Claim
 3. Terms of Contributing to XMPP Extensions
-3.1. Ownership
-3.2. Approval of XMPP Extensions
-3.3. A Note about Private Extensions
+  1. Ownership
+  2. Approval of XMPP Extensions
+  3. A Note about Private Extensions
 4. Legal Notice
 
 * * *
 
 ## 1. Introduction
 
-This document defines the official policy of the XMPP Standards Foundation (XSF) regarding intellectual property rights (IPR) as they pertain to extensions to XMPP in the form of XMPP Extension Protocol specifications (XEPs). [[1](/extensions/ipr-policy.shtml#note1)]
+This document defines the official policy of the XMPP Standards Foundation (XSF) regarding intellectual property rights (IPR) 
+as they pertain to extensions to XMPP in the form of XMPP Extension Protocol specifications (XEPs). 
+[[1](/extensions/ipr-policy.shtml#note1)]
 
 > ### 1.1 History
 >

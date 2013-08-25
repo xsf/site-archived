@@ -11,7 +11,7 @@ post_id: 247
 
 In this section you can find information on:
 
-* [Certificates](/resources/certificates/)
-* [XMPP Registrar](/resources/registrar/)
-* [Schemas](/resources/schemas/)
-* [XMPP Books](/resources/books/)
+* [Certificates](/pages/certificates.html)
+* [XMPP Registrar](/pages/registrar.html)
+* [Schemas](/pages/schemas.html)
+* [XMPP Books](/pages/books.html)
