@@ -7,6 +7,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Styling for elements */
 body { font-size: 100%; font-family: "Libre Baskerville",serif; }
+footer { font-size: 70%; text-align: center; }
 p { font-size: 100%; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
 h1, h2, h3, h4, h5, h6 { color: #330033; font-family: "Open Sans",sans-serif;}
