@@ -32,9 +32,9 @@ h3 { margin-top: 2.5em; }
 
 /* Read more button */
 .btn-info.xsmall {
-    padding: 1px 3px 1px;
-    font-size: 11px;
-    float: right;
+    padding: 12px 31px 12px;
+    font-size: 21px;
+    float: bottom;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
